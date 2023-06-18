@@ -1,6 +1,7 @@
 package com.springcloud.controller;
 
 
+import cn.hutool.json.JSONObject;
 import cn.hutool.poi.excel.ExcelUtil;
 import cn.hutool.poi.excel.ExcelWriter;
 import com.baomidou.mybatisplus.core.toolkit.Wrappers;
@@ -12,6 +13,7 @@ import com.springcloud.entity.Vehicle;
 import com.springcloud.mapper.VehicleMapper;
 import io.swagger.annotations.Api;
 import io.swagger.annotations.ApiOperation;
+import io.swagger.util.Json;
 import org.springframework.web.bind.annotation.*;
 
 import javax.annotation.Resource;
@@ -54,6 +56,35 @@ public class VehicleController {
         vehicle.setStatus("维修中");
         vehicleMapper.updateById(vehicle);
         return Result.success();
+    }
+
+    @PostMapping("/vehicle_predict/{nums}")
+    public Result<?> vehicle_predict(@PathVariable int nums){
+        int[] fence_id = vehicleMapper.getprecent();
+        float[] percents = new float[fence_id.length];
+        int[] addpercent = new int[fence_id.length];
+        JSONObject[] backs = new JSONObject[fence_id.length];
+        String[] fence_name = vehicleMapper.getfencename();
+        int sumpercent = 0;
+        for(int i =0;i<fence_id.length;i++){
+            addpercent[i] = vehicleMapper.getaddpercent(fence_id[i]);
+            sumpercent=sumpercent + addpercent[i];
+        }
+        float newbasicpercent =(float) 1/sumpercent;
+        for(int i =0;i<fence_id.length;i++){
+                percents[i] = newbasicpercent * addpercent[i];
+        }
+        float[] putnum = new float[fence_id.length];
+        for(int i =0;i<fence_id.length;i++){
+            putnum[i] = nums * percents[i];
+            JSONObject jsonObject = new JSONObject();
+            jsonObject.put("id", i+1);
+            jsonObject.put("fence_name", fence_name[i]);
+            jsonObject.put("putnum", putnum[i]);
+            backs[i] = jsonObject;
+            System.out.println(backs[i]);
+        }
+        return Result.success(backs);
     }
 
 

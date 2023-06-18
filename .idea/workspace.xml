@@ -5,26 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="bc76a7c5-8447-4d1b-90fc-42da1abd0a62" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/uiDesigner.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/catalina.base_IS_UNDEFINED/springcloud-gateway-9001/logs/log_debug.log" beforeDir="false" afterPath="$PROJECT_DIR$/catalina.base_IS_UNDEFINED/springcloud-gateway-9001/logs/log_debug.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/catalina.base_IS_UNDEFINED/springcloud-gateway-9001/logs/log_error.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/catalina.base_IS_UNDEFINED/springcloud-gateway-9001/logs/log_info.log" beforeDir="false" afterPath="$PROJECT_DIR$/catalina.base_IS_UNDEFINED/springcloud-gateway-9001/logs/log_info.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/catalina.base_IS_UNDEFINED/springcloud-gateway-9001/logs/log_warn.log" beforeDir="false" afterPath="$PROJECT_DIR$/catalina.base_IS_UNDEFINED/springcloud-gateway-9001/logs/log_warn.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/catalina.base_IS_UNDEFINED/springcloud-itemManage-8001/logs/log_debug.log" beforeDir="false" afterPath="$PROJECT_DIR$/catalina.base_IS_UNDEFINED/springcloud-itemManage-8001/logs/log_debug.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/catalina.base_IS_UNDEFINED/springcloud-itemManage-8001/logs/log_error.log" beforeDir="false" afterPath="$PROJECT_DIR$/catalina.base_IS_UNDEFINED/springcloud-itemManage-8001/logs/log_error.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/catalina.base_IS_UNDEFINED/springcloud-itemManage-8001/logs/log_info.log" beforeDir="false" afterPath="$PROJECT_DIR$/catalina.base_IS_UNDEFINED/springcloud-itemManage-8001/logs/log_info.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/catalina.base_IS_UNDEFINED/springcloud-itemManage-8001/logs/log_warn.log" beforeDir="false" afterPath="$PROJECT_DIR$/catalina.base_IS_UNDEFINED/springcloud-itemManage-8001/logs/log_warn.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/catalina.base_IS_UNDEFINED/springcloud-peopleManage-8002/logs/log_debug.log" beforeDir="false" afterPath="$PROJECT_DIR$/catalina.base_IS_UNDEFINED/springcloud-peopleManage-8002/logs/log_debug.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/catalina.base_IS_UNDEFINED/springcloud-peopleManage-8002/logs/log_error.log" beforeDir="false" afterPath="$PROJECT_DIR$/catalina.base_IS_UNDEFINED/springcloud-peopleManage-8002/logs/log_error.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/catalina.base_IS_UNDEFINED/springcloud-peopleManage-8002/logs/log_info.log" beforeDir="false" afterPath="$PROJECT_DIR$/catalina.base_IS_UNDEFINED/springcloud-peopleManage-8002/logs/log_info.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/catalina.base_IS_UNDEFINED/springcloud-peopleManage-8002/logs/log_warn.log" beforeDir="false" afterPath="$PROJECT_DIR$/catalina.base_IS_UNDEFINED/springcloud-peopleManage-8002/logs/log_warn.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/springcloud-api/src/main/java/com/springcloud/entity/Vehicle.java" beforeDir="false" afterPath="$PROJECT_DIR$/springcloud-api/src/main/java/com/springcloud/entity/Vehicle.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springcloud-book-8002/src/main/java/com/springcloud/controller/VehicleController.java" beforeDir="false" afterPath="$PROJECT_DIR$/springcloud-book-8002/src/main/java/com/springcloud/controller/VehicleController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springcloud-book-8002/src/main/java/com/springcloud/mapper/VehicleMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/springcloud-book-8002/src/main/java/com/springcloud/mapper/VehicleMapper.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,7 +24,21 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <favorite-branches>
+      <branch-storage>
+        <map>
+          <entry type="LOCAL">
+            <value>
+              <list>
+                <branch-info repo="$PROJECT_DIR$" source="bicycle" />
+              </list>
+            </value>
+          </entry>
+        </map>
+      </branch-storage>
+    </favorite-branches>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="ROOT_SYNC" value="DONT_SYNC" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -67,7 +65,7 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "C:/Users/14485/Desktop/bicycle-cloud/springcloud",
+    "last_opened_file_path": "C:/Users/14485/Desktop/bicycle-cloud/springcloud/springcloud-book-8002/src/main/java/com/springcloud/mapper",
     "nodejs_package_manager_path": "npm",
     "settings.editor.selected.configurable": "File.Encoding",
     "spring.configuration.checksum": "d1266e7dc625505d31db61dd216886d1",
@@ -145,12 +143,40 @@
       <updated>1686033405835</updated>
       <workItem from="1686033408554" duration="6956000" />
       <workItem from="1686064411690" duration="20247000" />
-      <workItem from="1686304387104" duration="7533000" />
+      <workItem from="1686304387104" duration="7856000" />
+      <workItem from="1686553814233" duration="350000" />
+      <workItem from="1686637193208" duration="1720000" />
+      <workItem from="1687092464768" duration="696000" />
+      <workItem from="1687093195555" duration="612000" />
+      <workItem from="1687093856724" duration="1008000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="origin/springcloud2.0" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="VcsManagerConfiguration">
     <ignored-roots>
