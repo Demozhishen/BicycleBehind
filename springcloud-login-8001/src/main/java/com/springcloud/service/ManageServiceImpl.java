@@ -2,10 +2,6 @@ package com.springcloud.service;
 
 import com.baomidou.mybatisplus.core.toolkit.Wrappers;
 
-import com.springcloud.entity.Order;
-import com.springcloud.entity.Sign;
-import com.springcloud.entity.Staff;
-import com.springcloud.entity.User;
 import com.springcloud.mapper.ItemMapper;
 import com.springcloud.mapper.StaffMapper;
 import com.springcloud.mapper.UserMapper;

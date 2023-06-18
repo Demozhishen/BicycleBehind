@@ -1,7 +1,6 @@
 package com.springcloud.service;
 
 import com.baomidou.mybatisplus.core.toolkit.Wrappers;
-import com.springcloud.entity.Menu;
 import com.springcloud.mapper.MenuMapper;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
